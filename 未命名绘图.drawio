@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T18:30:42.992Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="unz4gh9FfRA0HL8sCxlW" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-12T18:43:03.704Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="mM_2uY06_1ZRnbbs0ty5" version="22.0.4" type="github">
   <diagram name="第 1 页" id="APUiPyiJGiFuWGCEKdUN">
     <mxGraphModel dx="875" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,20 +7,20 @@
         <mxCell id="l2celHGfLboa8f3a0c6i-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-1" target="l2celHGfLboa8f3a0c6i-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-1" value="Determine the categorization method for orders and calculate the total number of order types by the Breadth-first Search (BFS)&amp;nbsp;algorithm based on the warehouse layout, shelves arrangement, and walking policy during the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;" parent="1" vertex="1">
-          <mxGeometry x="230.47" y="150" width="355.31" height="70" as="geometry" />
+        <mxCell id="l2celHGfLboa8f3a0c6i-1" value="Determine the categorization method for orders and calculate the total number of order types by the Breadth-first Search (BFS)&amp;nbsp;algorithm based on the warehouse layout, shelves arrangement, and walking policy during the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="230.47" y="140" width="355.31" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-2" target="l2celHGfLboa8f3a0c6i-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-2" value="determine special actions activated/masked" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
+        <mxCell id="l2celHGfLboa8f3a0c6i-2" value="determine special actions activated/masked" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
           <mxGeometry x="348.13" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-3" target="l2celHGfLboa8f3a0c6i-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-3" value="Compare the MAPPG-attention model, MAPPO-attention model and HAPPO-attention model with limited resources (attention mechanism)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
-          <mxGeometry x="296.88" y="350" width="222.5" height="60" as="geometry" />
+        <mxCell id="l2celHGfLboa8f3a0c6i-3" value="Compare the MAPPG-attention model, MAPPO-attention model and HAPPO-attention model with limited resources during the picking process (attention mechanism)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="241.56" y="340" width="333.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.503;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;exitPerimeter=0;" parent="1" source="l2celHGfLboa8f3a0c6i-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -40,7 +40,7 @@
         <mxCell id="l2celHGfLboa8f3a0c6i-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-15" target="l2celHGfLboa8f3a0c6i-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-4" value="whether new orders comes" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" parent="1" vertex="1">
+        <mxCell id="l2celHGfLboa8f3a0c6i-4" value="whether new orders comes" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;shadow=0;gradientColor=#ffffff;gradientDirection=north;" parent="1" vertex="1">
           <mxGeometry x="306.56" y="450" width="203.13" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-9" value="end and calculate the final rewards" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
@@ -77,7 +77,7 @@
         <mxCell id="l2celHGfLboa8f3a0c6i-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-23" target="l2celHGfLboa8f3a0c6i-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-23" value="Generate the&amp;nbsp;Multi-agent Reinforcement Learning (MARL) order-picking environment based on the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;" parent="1" vertex="1">
+        <mxCell id="l2celHGfLboa8f3a0c6i-23" value="Generate the&amp;nbsp;Multi-agent Reinforcement Learning (MARL) order-picking environment based on the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
           <mxGeometry x="236.25" y="80" width="343.75" height="40" as="geometry" />
         </mxCell>
       </root>
