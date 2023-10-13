@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T01:56:24.185Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="GM9VhCR4_jkE7tFAawQ_" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T02:27:09.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="CCzatXZ84xlulBWS8H8c" version="22.0.4" type="github">
   <diagram name="第 1 页" id="APUiPyiJGiFuWGCEKdUN">
-    <mxGraphModel dx="906" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="666" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,8 +48,8 @@
         <mxCell id="l2celHGfLboa8f3a0c6i-4" value="whether new orders comes" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;shadow=0;gradientColor=#ffffff;gradientDirection=north;" parent="1" vertex="1">
           <mxGeometry x="306.55" y="440" width="203.13" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-9" value="end and calculate the final rewards" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="1" vertex="1">
-          <mxGeometry x="348.13" y="650" width="120" height="60" as="geometry" />
+        <mxCell id="l2celHGfLboa8f3a0c6i-9" value="Terminate the picking process, calculate the final rewards and measure the delay rate" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="282.18" y="640" width="251.88" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-4" target="l2celHGfLboa8f3a0c6i-15" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -62,11 +62,12 @@
             <mxPoint x="5" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-15" edge="1">
+        <mxCell id="l2celHGfLboa8f3a0c6i-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.057;exitY=0.48;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;exitPerimeter=0;" parent="1" source="l2celHGfLboa8f3a0c6i-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="408" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="580" />
+              <mxPoint x="318" y="575" />
+              <mxPoint x="230" y="575" />
               <mxPoint x="230" y="230" />
             </Array>
             <mxPoint x="305.5" y="670" as="sourcePoint" />
@@ -74,14 +75,11 @@
         </mxCell>
         <mxCell id="yh-4O9-LqZweAbqxaxyc-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l2celHGfLboa8f3a0c6i-20">
           <mxGeometry x="-0.7761" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="30" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-15" value="whether there are remaining orders" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="325.62" y="540" width="165" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-15" target="l2celHGfLboa8f3a0c6i-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="l2celHGfLboa8f3a0c6i-15" value="Are there any remaining orders?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;gradientColor=#ffffff;gradientDirection=north;" parent="1" vertex="1">
+          <mxGeometry x="306.55" y="540" width="204.38" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-23" target="l2celHGfLboa8f3a0c6i-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
