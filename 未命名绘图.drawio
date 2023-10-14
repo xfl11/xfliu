@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T02:27:09.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="CCzatXZ84xlulBWS8H8c" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-14T15:17:55.279Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="uiOotEzmHWfx7XHdTVKc" version="22.0.4" type="github">
   <diagram name="第 1 页" id="APUiPyiJGiFuWGCEKdUN">
-    <mxGraphModel dx="666" dy="385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,31 +8,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-1" value="Determine the categorization method for orders and calculate the total number of order types by the Breadth-first Search (BFS)&amp;nbsp;algorithm based on the warehouse layout, shelves arrangement, and walking policy during the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="230.47" y="140" width="355.31" height="70" as="geometry" />
+          <mxGeometry x="70.38" y="140" width="355.31" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-2" target="l2celHGfLboa8f3a0c6i-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-2" value="&amp;nbsp;Determine the specific number of actions in the fixed action space that need to be activated or masked, based on the remaining types of orders in the environment" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="253.12" y="250" width="310" height="60" as="geometry" />
+          <mxGeometry x="93.03" y="250" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-3" target="l2celHGfLboa8f3a0c6i-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-3" value="Compare the MAPPG-attention model, MAPPO-attention model and HAPPO-attention model with limited resources during the picking process (attention mechanism)" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="241.56" y="340" width="333.12" height="60" as="geometry" />
+          <mxGeometry x="81.47" y="340" width="333.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.503;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;exitPerimeter=0;" parent="1" source="l2celHGfLboa8f3a0c6i-4" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="408" y="230" as="targetPoint" />
-            <mxPoint x="483" y="550" as="sourcePoint" />
+            <mxPoint x="247.91" y="230" as="targetPoint" />
+            <mxPoint x="322.90999999999997" y="550" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="583" y="470" />
-              <mxPoint x="583" y="230" />
+              <mxPoint x="449.90999999999997" y="470" />
+              <mxPoint x="449.90999999999997" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yh-4O9-LqZweAbqxaxyc-2" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" vertex="1" connectable="0" parent="l2celHGfLboa8f3a0c6i-8">
+        <mxCell id="yh-4O9-LqZweAbqxaxyc-2" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;" parent="l2celHGfLboa8f3a0c6i-8" vertex="1" connectable="0">
           <mxGeometry x="0.4115" y="2" relative="1" as="geometry">
             <mxPoint x="-35" y="228" as="offset" />
           </mxGeometry>
@@ -40,52 +40,61 @@
         <mxCell id="l2celHGfLboa8f3a0c6i-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-15" target="l2celHGfLboa8f3a0c6i-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yh-4O9-LqZweAbqxaxyc-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l2celHGfLboa8f3a0c6i-11">
+        <mxCell id="yh-4O9-LqZweAbqxaxyc-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="l2celHGfLboa8f3a0c6i-11" vertex="1" connectable="0">
           <mxGeometry x="-0.7597" y="1" relative="1" as="geometry">
             <mxPoint x="5" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-4" value="whether new orders comes" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;shadow=0;gradientColor=#ffffff;gradientDirection=north;" parent="1" vertex="1">
-          <mxGeometry x="306.55" y="440" width="203.13" height="60" as="geometry" />
+          <mxGeometry x="146.46" y="440" width="203.13" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-9" value="Terminate the picking process, calculate the final rewards and measure the delay rate" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="282.18" y="640" width="251.88" height="50" as="geometry" />
+          <mxGeometry x="122.09" y="640" width="251.88" height="50" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-4" target="l2celHGfLboa8f3a0c6i-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="660" as="sourcePoint" />
-            <mxPoint x="410" y="750" as="targetPoint" />
+            <mxPoint x="249.91" y="660" as="sourcePoint" />
+            <mxPoint x="249.91" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yh-4O9-LqZweAbqxaxyc-6" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l2celHGfLboa8f3a0c6i-16">
+        <mxCell id="yh-4O9-LqZweAbqxaxyc-6" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="l2celHGfLboa8f3a0c6i-16" vertex="1" connectable="0">
           <mxGeometry x="-0.3" y="1" relative="1" as="geometry">
             <mxPoint x="5" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-20" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.057;exitY=0.48;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;exitPerimeter=0;" parent="1" source="l2celHGfLboa8f3a0c6i-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="408" y="230" as="targetPoint" />
+            <mxPoint x="247.91" y="230" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="318" y="575" />
-              <mxPoint x="230" y="575" />
-              <mxPoint x="230" y="230" />
+              <mxPoint x="157.91" y="575" />
+              <mxPoint x="49.91" y="575" />
+              <mxPoint x="49.91" y="230" />
             </Array>
-            <mxPoint x="305.5" y="670" as="sourcePoint" />
+            <mxPoint x="145.41" y="670" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yh-4O9-LqZweAbqxaxyc-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l2celHGfLboa8f3a0c6i-20">
+        <mxCell id="yh-4O9-LqZweAbqxaxyc-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="l2celHGfLboa8f3a0c6i-20" vertex="1" connectable="0">
           <mxGeometry x="-0.7761" y="-1" relative="1" as="geometry">
             <mxPoint x="30" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-15" value="Are there any remaining orders?" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;rounded=1;gradientColor=#ffffff;gradientDirection=north;" parent="1" vertex="1">
-          <mxGeometry x="306.55" y="540" width="204.38" height="70" as="geometry" />
+          <mxGeometry x="146.46" y="540" width="204.38" height="70" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-23" target="l2celHGfLboa8f3a0c6i-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-23" value="Generate the&amp;nbsp;Multi-agent Reinforcement Learning (MARL) order-picking environment based on the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="236.25" y="80" width="343.75" height="40" as="geometry" />
+          <mxGeometry x="76.16" y="80" width="343.75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVcQoaXJWwUum2oUsaX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#00a3a3;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="59.91" y="70" width="380" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVcQoaXJWwUum2oUsaX-3" value="Order picking environment for MARL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="65" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sRVcQoaXJWwUum2oUsaX-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#00a3a3;strokeWidth=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="70" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
