@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T22:44:53.563Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="5zY1gCLsRSa5LV6OjvB4" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T01:12:54.135Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bBkJT71E-4QxGTxezTX0" version="22.1.5" type="github">
   <diagram name="第 1 页" id="YrESG4-pe0sYExbxf6HH">
-    <mxGraphModel dx="1050" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="666" dy="381" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,12 +125,6 @@
         <mxCell id="3iSkRXKuQuDvA5Zweqmn-1" value="agent 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="157.5" y="849" width="45" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="3iSkRXKuQuDvA5Zweqmn-3" value="agent j" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="291" y="823.5" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="3iSkRXKuQuDvA5Zweqmn-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;agent m&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="512" y="823.5" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="3iSkRXKuQuDvA5Zweqmn-9" value="..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="224.5" y="840" width="60" height="27" as="geometry" />
         </mxCell>
@@ -145,17 +139,34 @@
             <mxPoint x="12" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3iSkRXKuQuDvA5Zweqmn-19" value="$$\pi_{\theta^1}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="3iSkRXKuQuDvA5Zweqmn-19" value="$$\pi_{\theta^1}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;labelBorderColor=none;" vertex="1" parent="1">
           <mxGeometry x="147" y="780.5" width="66" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3iSkRXKuQuDvA5Zweqmn-21" value="$$\pi_{\theta_j}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="319.5" y="776" width="60" height="30" as="geometry" />
+        <mxCell id="3iSkRXKuQuDvA5Zweqmn-21" value="$$\pi_{\theta^j}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="319.5" y="780.5" width="60" height="30.5" as="geometry" />
         </mxCell>
-        <mxCell id="3iSkRXKuQuDvA5Zweqmn-22" value="$$\pi_{\theta_m}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="542" y="772" width="60" height="30" as="geometry" />
+        <mxCell id="3iSkRXKuQuDvA5Zweqmn-22" value="$$\pi_{\theta^m}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="543" y="780.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3iSkRXKuQuDvA5Zweqmn-28" value="$$Q_1$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="947" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3iSkRXKuQuDvA5Zweqmn-31" value="agent 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="847" width="45" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="3iSkRXKuQuDvA5Zweqmn-32" value="agent 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550.5" y="844" width="45" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="3iSkRXKuQuDvA5Zweqmn-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3iSkRXKuQuDvA5Zweqmn-21" target="3iSkRXKuQuDvA5Zweqmn-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="847" as="sourcePoint" />
+            <mxPoint x="451" y="797" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3iSkRXKuQuDvA5Zweqmn-43" value="$$o^j$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3iSkRXKuQuDvA5Zweqmn-42">
+          <mxGeometry x="-0.0234" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
