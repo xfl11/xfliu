@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T00:37:50.312Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="bj5dVc849e9SkB0bM30o" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T06:51:14.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="97kYfBFTT2j25weUBgOm" version="24.0.2" type="github">
   <diagram name="第 1 页" id="APUiPyiJGiFuWGCEKdUN">
-    <mxGraphModel dx="1050" dy="574" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="666" dy="381" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -192,6 +192,21 @@
         </mxCell>
         <mxCell id="e7p2qe9BLUOQIa2MOwcy-29" value="Compare the results of&amp;nbsp; MAPPO-double attention model and HAPPO-attention model&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
           <mxGeometry x="99.225" y="662" width="297.6" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZB7EkO9kNFXdpVu7yOwd-1" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERzeroToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZB7EkO9kNFXdpVu7yOwd-3" target="ZB7EkO9kNFXdpVu7yOwd-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="411" y="118" as="sourcePoint" />
+            <mxPoint x="621" y="117.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZB7EkO9kNFXdpVu7yOwd-2" value="Picking task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="621" y="103" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZB7EkO9kNFXdpVu7yOwd-3" value="Order" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="491" y="103" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZB7EkO9kNFXdpVu7yOwd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZB7EkO9kNFXdpVu7yOwd-2" target="ZB7EkO9kNFXdpVu7yOwd-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
