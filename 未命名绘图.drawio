@@ -1,28 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T01:13:17.556Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="KwVKo6dzDlUnpgL232P-" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-07T00:13:17.379Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="T4BMMo3Ag2uV7oudNyRX" version="24.0.2" type="github">
   <diagram name="第 1 页" id="APUiPyiJGiFuWGCEKdUN">
-    <mxGraphModel dx="666" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sRVcQoaXJWwUum2oUsaX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#00a3a3;strokeWidth=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="59.91" y="77" width="380" height="243" as="geometry" />
+          <mxGeometry x="40" y="77" width="420" height="243" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-1" target="l2celHGfLboa8f3a0c6i-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-1" value="Sort out orders by the route categorization method and calculate the total number of picking order types by the revised BFS algorithm&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="114.63500000000002" y="168" width="266.78" height="50" as="geometry" />
+        <mxCell id="l2celHGfLboa8f3a0c6i-1" value="&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Sort out original orders by their picking routes and delivery times&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Find the picking tasks&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;corresponding to each order&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Calculate the total number of picking tasks by the BFSLOT&amp;nbsp; algorithm to determine the size of action space&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="52.5" y="144" width="389.66" height="76" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-2" target="l2celHGfLboa8f3a0c6i-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-2" value="&amp;nbsp;Determine the specific number of actions that need to be activated or masked in the fixed action space&amp;nbsp; based on the remaining types of picking orders in each step" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+        <mxCell id="l2celHGfLboa8f3a0c6i-2" value="&amp;nbsp;Determine the specific number of actions that need to be activated or masked in the fixed action space based on the remaining types of picking tasks at each step" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
           <mxGeometry x="87.52" y="250" width="321.02" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" parent="1" source="l2celHGfLboa8f3a0c6i-3" target="l2celHGfLboa8f3a0c6i-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-3" value="In each iteration, collect rewards and update the policy by different models, such as the MAPPG-attention model, MAPPO-attention model, and HAPPO-attention model with limited resources during the picking process&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+        <mxCell id="l2celHGfLboa8f3a0c6i-3" value="In each iteration, collect rewards and update the policy network by different models, such as the MAPPO-double attention model, and HAPPO-attention model with limited resources during the picking process&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
           <mxGeometry x="81.465" y="335" width="333.12" height="60" as="geometry" />
         </mxCell>
         <mxCell id="l2celHGfLboa8f3a0c6i-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.503;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;exitPerimeter=0;" parent="1" source="l2celHGfLboa8f3a0c6i-4" edge="1">
@@ -89,8 +89,8 @@
         <mxCell id="e7p2qe9BLUOQIa2MOwcy-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#457B9D;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;" parent="1" source="l2celHGfLboa8f3a0c6i-23" target="l2celHGfLboa8f3a0c6i-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="l2celHGfLboa8f3a0c6i-23" value="Generate the&amp;nbsp;Multi-agent Reinforcement Learning (MARL) environment for the order batching problem based on the warehouse layout, shelves arrangement, and walking policy during the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
-          <mxGeometry x="96.1" y="86" width="303.85" height="66" as="geometry" />
+        <mxCell id="l2celHGfLboa8f3a0c6i-23" value="Generate the MARL environment for the order batching problem based on the warehouse layout, shelves arrangement, and walking policy during the picking process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A8DADC;strokeColor=#457B9D;labelBackgroundColor=none;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+          <mxGeometry x="80.38" y="86" width="333.9" height="44" as="geometry" />
         </mxCell>
         <mxCell id="sRVcQoaXJWwUum2oUsaX-3" value="Generate actions in the order batching MARL environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="133" y="32.5" width="316.91" height="30" as="geometry" />
@@ -190,7 +190,7 @@
         <mxCell id="e7p2qe9BLUOQIa2MOwcy-22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;strokeColor=#00a3a3;strokeWidth=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="510" y="975" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="e7p2qe9BLUOQIa2MOwcy-29" value="Compare the results of MAPPG-attention model, MAPPO-attention model and HAPPO-attention model&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
+        <mxCell id="e7p2qe9BLUOQIa2MOwcy-29" value="Compare the results of&amp;nbsp; MAPPO-double attention model and HAPPO-attention model&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;glass=1;" parent="1" vertex="1">
           <mxGeometry x="99.225" y="662" width="297.6" height="40" as="geometry" />
         </mxCell>
       </root>
