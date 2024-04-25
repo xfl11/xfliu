@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T13:48:00.838Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nfrIrXNHUk1lnFxNU1PU" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T13:48:57.872Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yeXu5M8krjvkqxK_s6L6" version="24.3.0" type="github">
   <diagram name="第 1 页" id="Na53e1ivrenGZ3WMZQ6D">
-    <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1909" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -353,7 +353,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-72" value="Click confirm on RF gun" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;dashed=0;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1048.5" width="83" height="50" as="geometry" />
+          <mxGeometry x="1054" y="1661.75" width="83" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#CC00CC;" edge="1" parent="1" source="m6HB10kPaZ1W_RpcMnGs-75">
           <mxGeometry relative="1" as="geometry">
@@ -495,7 +495,7 @@
           <mxGeometry x="1054" y="1434" width="100" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-106" value="Space_Aisle 1/2/3/4/5/6/7/8" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fillColor=#FF8000;fontColor=#FFFFFF;strokeColor=none;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1020" width="100" height="25" as="geometry" />
+          <mxGeometry x="1054" y="1633.25" width="100" height="25" as="geometry" />
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-107" value="Space_Aisle 1/2/3/4/5/6/7/8" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=11;fillColor=#FF8000;fontColor=#FFFFFF;strokeColor=none;verticalAlign=middle;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="1054" y="1537" width="100" height="25" as="geometry" />
