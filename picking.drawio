@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T14:19:15.211Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="akmfUljxUHIyHPFnzjRe" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T14:20:40.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pCjG9Tu9IH2VNmmv9HAQ" version="24.3.0" type="github">
   <diagram name="第 1 页" id="Na53e1ivrenGZ3WMZQ6D">
     <mxGraphModel dx="1313" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -319,7 +319,7 @@
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-64" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#CC00CC;" edge="1" parent="1" source="m6HB10kPaZ1W_RpcMnGs-65" target="m6HB10kPaZ1W_RpcMnGs-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m6HB10kPaZ1W_RpcMnGs-65" value="Scan location barcode at the destination location" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;dashed=0;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="m6HB10kPaZ1W_RpcMnGs-65" value="Scan the location barcode at the destination location" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;dashed=0;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1054" y="1256" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC00CC;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="m6HB10kPaZ1W_RpcMnGs-69" target="m6HB10kPaZ1W_RpcMnGs-72">
@@ -437,7 +437,7 @@
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CC00CC;" edge="1" parent="1" source="m6HB10kPaZ1W_RpcMnGs-95" target="m6HB10kPaZ1W_RpcMnGs-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m6HB10kPaZ1W_RpcMnGs-95" value="Scan picking tote on trolley" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;dashed=0;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="m6HB10kPaZ1W_RpcMnGs-95" value="Scan the picking tote on the trolley" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;dashed=0;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1054" y="1152" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-96" value="Unload the totes" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;fontSize=14;" vertex="1" parent="1">
