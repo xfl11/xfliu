@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T14:35:08.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="gYkl2NumwxFMXHll8ac9" version="24.3.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-25T14:36:08.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_6sl9Hvbex95DakmJSKt" version="24.3.0" type="github" pages="2">
   <diagram name="第 1 页" id="Na53e1ivrenGZ3WMZQ6D">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-20" value="Picking task" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#B3B3B3;fontColor=#FFFFFF;strokeColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1613" y="1062.75" width="91" height="28" as="geometry" />
+          <mxGeometry x="1605" y="1062.75" width="91" height="28" as="geometry" />
         </mxCell>
         <mxCell id="m6HB10kPaZ1W_RpcMnGs-21" value="Buffer" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;dashed=0;fontColor=#ffffff;strokeColor=#314354;fillColor=#647687;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="523" y="1048.5" width="70" height="50" as="geometry" />
@@ -519,7 +519,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RoAEGWHQUCfiw7DewQiM" name="第 2 页">
-    <mxGraphModel dx="2704" dy="4081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
